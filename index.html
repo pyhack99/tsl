@@ -1,1 +1,86 @@
-g
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAW SPRAY ART | CUSTOM PIECES</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header-drips"></div>
+
+    <header>
+        <div class="header-center">
+            <img src="logo.png" alt="RAW Logo" class="main-logo anim-tag">
+            <h1 class="glitch-text">CUSTOM PAINT</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="button-center-container">
+                <button id="orderBtn" class="street-btn order-btn">BESTIL CUSTOM VÆRK</button>
+                <div style="margin: 20px 0;"></div>
+                <button id="toggleBtn" class="street-btn">TJEK MINE VÆRKER</button>
+            </div>
+            
+            <div id="gallery" class="gallery">
+                <div class="art-frame"><img src="IMG_3911.JPG" alt=""></div>
+                <div class="art-frame"><img src="IMG_3918.JPG" alt=""></div>
+                <div class="art-frame"><img src="IMG_3937.JPG" alt=""></div>
+                <div class="art-frame"><img src="IMG_3940.JPG" alt=""></div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contactSection">
+            <div class="contact-box">
+                <h2 class="tag-font">HIT ME UP</h2>
+                <form id="contactForm">
+                    <input type="text" id="name" class="marker-font" placeholder="DIT TAG / NAVN" required>
+                    <input type="text" id="contactInfo" class="marker-font" placeholder="DIN E-MAIL / TLF" required>
+                    <textarea id="message" class="marker-font" placeholder="BESKRIVELSE AF OPGAVEN" required></textarea>
+
+                    <div class="special-colors-container">
+                        <button type="button" id="colorToggleBtn" class="street-btn color-btn">SPECIELLE FARVER?</button>
+                        <div id="colorInputField" class="hidden-field">
+                            <input type="text" id="specialColors" class="marker-font" placeholder="SKRIV FARVER HER...">
+                        </div>
+                    </div>
+
+                    <button type="submit" id="sendBtn" class="street-btn send-btn">SEND BESKED</button>
+                    
+                    <p id="formFeedback" class="tag-font" style="margin-top: 15px; min-height: 24px; transition: 0.3s;"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<footer>
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.instagram.com/coluuumm?igsh=bGk2Y3R2dGUzYmY%3D&utm_source=qr" target="_blank" class="social-icon">
+                <svg viewBox="0 0 110 110" style="fill: none; stroke: currentColor; stroke-width: 8;">
+                    <rect x="5" y="5" width="100" height="100" rx="20" ry="20"></rect>
+                    <circle cx="55" cy="55" r="25"></circle>
+                    <circle cx="85" cy="25" r="5" fill="currentColor" stroke="none"></circle>
+                </svg>
+            </a>
+            
+            <a href="https://www.vinted.dk/member/3136177831-coluuum" target="_blank" class="social-icon vinted-icon">
+                <svg viewBox="0 0 100 120" style="fill: none; stroke: currentColor; stroke-width: 12; stroke-linecap: round; stroke-linejoin="round;">
+                    <path d="M10,10 L45,110 L55,110 L90,10"></path>
+                </svg>
+            </a>
+        </div>
+        <p class="tag-font copy">&copy; 2026 RAW SPRAY ART - NO RULES</p>
+    </div>
+    <div class="footer-drips"></div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
